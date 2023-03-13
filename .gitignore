@@ -1,3 +1,4 @@
-1inch-widget-example/.idea/
+.idea/
 .DS_Store
 node_modules
+.
