@@ -1,6 +1,6 @@
 ## Demo project @yozh-io/1inch-widget
 
-This is a [Create React App](https://create-react-app.dev/) project bootstrapped with [`create-react-app`](https://create-react-app.dev/docs/getting-started) to showcase how to integrate the @yozh-io/1inch-widget package in your own projects. It uses react-scripts@5.0.0.
+This is a [Create React App](https://create-react-app.dev/) project bootstrapped with [`create-react-app`](https://create-react-app.dev/docs/getting-started) to showcase how to integrate the dexknot-base package in your own projects. It uses react-scripts@5.0.1.
 
 
 <img src="public/widget-example.gif" height="500" />
