@@ -1,14 +1,14 @@
 import { useCallback, useState } from 'react'
 import { parseUnits } from '@ethersproject/units'
-import { locales } from '@dexknot/shared'
+import { locales, types } from '@dexknot/shared'
 import { SupportedChainId } from '@dexknot/types'
 import { SwapWidget } from 'dexknot-base'
 
 import styles from '../styles/Home.module.css'
 
 export default function App() {
-	const [locale, setLocale] = useState<string>('en')
-	const onSelectLocale = useCallback((e: any) => setLocale(e.target.value), [])
+	const [locale, setLocale] = useState<types.SupportedLocale>('en')
+	const onSelectLocale = useCallback((e: React.ChangeEvent<HTMLSelectElement>) => setLocale(e.target.value), [])
 	return (
 		<div className={styles.container}>
 			<div className={styles.i18n}>
