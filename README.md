@@ -1,4 +1,7 @@
-## Demo project @yozh-io/1inch-widget
+## Demo project @yozh-io/dexknot-demo
+Public
+Fork your own copy of yozh-io/dexknot-demo
+
 
 This is a [Create React App](https://create-react-app.dev/) project bootstrapped with [`create-react-app`](https://create-react-app.dev/docs/getting-started) to showcase how to integrate the **dexknot-base** package in your own projects. It uses react-scripts@5.0.1.
 
@@ -9,12 +12,12 @@ This is a [Create React App](https://create-react-app.dev/) project bootstrapped
 ---
 
 To start the demo:
-
+- yarn
 ```bash
-yarn          # install dependencies
 yarn start    # run the development server
-# or
-npm           # install dependencies
+```
+- or npm
+```bash
 npm run start # run the development server
 ```
 
